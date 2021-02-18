@@ -11,7 +11,12 @@ import dagger.hilt.android.components.ApplicationComponent
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Singleton
 
-
+/*
+ * Module to provide Database functionality
+ * we have annotated this class to be used in Hilt for dependency injection
+ * and provide Database object and DAO class to be injected in anywhere in the app
+ * with @Inject annotation
+ */
 @Module
 @InstallIn(ApplicationComponent::class)
 class DbModule {

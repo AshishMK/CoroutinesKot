@@ -20,6 +20,9 @@ import javax.inject.Singleton
 
 /*
  * Module to provide api call functionality
+ * we have annotated this class to be used in Hilt for dependency injection
+ * and provide Network related class's object to be inject anywhere in the app
+ * with @Inject annotation
  */
 @InstallIn(ApplicationComponent::class)
 @Module

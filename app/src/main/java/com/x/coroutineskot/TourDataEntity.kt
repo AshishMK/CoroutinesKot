@@ -5,6 +5,9 @@ import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+/**
+ * Database table
+ * */
 @Entity
 class TourDataEntity() : Parcelable {
     @PrimaryKey(autoGenerate = true)

@@ -5,6 +5,9 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
+/**
+ * Data Access Object for database table transaction
+ * */
 @Dao
 interface TourDao {
 

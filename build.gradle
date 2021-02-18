@@ -16,6 +16,7 @@ buildscript {
         ktxVersion = '1.0.2'
         lifecycleVersion = '2.2.0'
         navigationVersion = '2.2.0'
+        workVersion = '2.1.0'
     }
     repositories {
         google()

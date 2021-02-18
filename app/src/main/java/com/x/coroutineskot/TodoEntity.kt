@@ -5,6 +5,9 @@ import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+/**
+ * Database table used for network call also
+ * */
 @Entity(primaryKeys = ["id"])
 class TodoEntity() : Parcelable {
     lateinit var id: Integer
